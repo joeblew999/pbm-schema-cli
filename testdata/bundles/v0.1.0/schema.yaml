@@ -1,0 +1,21 @@
+collections:
+  - name: users
+    type: base
+    system: false
+    schema:
+      - name: email
+        type: email
+        required: true
+        unique: true
+      - name: display_name
+        type: text
+        required: false
+        unique: false
+  - name: invoices
+    type: base
+    system: false
+    schema:
+      - name: amount
+        type: number
+        required: true
+        unique: false

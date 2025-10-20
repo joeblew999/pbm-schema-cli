@@ -1,0 +1,9 @@
+collections:
+  - name: users
+    type: base
+    system: false
+    schema:
+      - name: email
+        type: email
+        required: true
+        unique: true
