@@ -1,8 +1,0 @@
-{
-  "name": "myapp-schema",
-  "version": "0.1.0",
-  "created": "2025-10-20T00:00:00Z",
-  "checksum": "",
-  "engine": "pocketbase>=0.22",
-  "notes": "add invoices + users.display_name"
-}
